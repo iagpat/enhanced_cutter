@@ -1,0 +1,62 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3468071358" file="C:\Users\Iago Patino Lopez\Desktop\work\WaveformCutter\WaveformCutter.prj" location="C:\Users\Iago Patino Lopez\Desktop\work\WaveformCutter" name="WaveformCutter" target="target.mlapps" target-name="Package App">
+    <param.appname>WaveformCutter</param.appname>
+    <param.authnamewatermark>Iago Patino Lopez</param.authnamewatermark>
+    <param.email>iagpat@ufl.edu</param.email>
+    <param.company>McKnight Brain Institute</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Waveform cutter</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Iago Patino Lopez\AppData\Local\Temp\tp3dd38490_56a7_4b20_a990_de537f9951f4.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Iago Patino Lopez\Desktop\work\WaveformCutter</param.output>
+    <param.guid>66c80c5e-c06f-4082-be3b-8098f86c3294</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\WaveformCutter.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\xml2struct.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Iago Patino Lopez\Desktop\work" name="WaveformCutter" optional="false">C:\Users\Iago Patino Lopez\Desktop\work\WaveformCutter</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
